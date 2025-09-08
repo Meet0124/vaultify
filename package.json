@@ -13,12 +13,15 @@
     "db:migrate": "tsx ./lib/db/migrate.ts"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.31.9",
+    "@hookform/resolvers": "^5.2.1",
     "@neondatabase/serverless": "^1.0.1",
     "dotenv": "^17.2.2",
     "drizzle-orm": "^0.44.5",
     "next": "15.5.2",
     "react": "19.1.0",
     "react-dom": "19.1.0",
+    "react-hook-form": "^7.62.0",
     "zod": "^3.25.76"
   },
   "devDependencies": {
